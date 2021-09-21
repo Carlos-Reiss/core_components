@@ -50,8 +50,6 @@ const Binario = ({ binary }: Props) => {
     setBinaryArray(array);
   }, [binary]);
 
-  console.log("numero: ", binary);
-
   return (
     <>
       <Modal
